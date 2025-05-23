@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy with DAS</title>
+    <meta name="description" content="Audio examples and results from research on privacy concerns with distributed acoustic sensing technology.">
+    <meta name="theme-color" content="#009999">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/fav-96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav-16.png">
+</head>
+
+<body>
+    <header>
+        <h1 style="font-family: Outfit">Audio Examples | Privacy Concerns with Distributed Acoustic Sensing</h1>
+        <p class="subtitle" style="padding-bottom: 0; margin-bottom: 0;">
+            Below you can listen to audio samples recorded during this research using distributed acoustic sensing technology on a fibre optic cable. <br> There are two speech examples and three music examples of songs you can try to identify.
+        </p>
+    </header>
+
+    <main class="results-container">
+    
+        <article class="result-block">
+            <h3 style="font-family: Outfit">Music Sample 1</h3>
+            <p style="text-align: center;">
+                One of the most famous groups in the world...
+            </p>
+            <div class="audio-clips">
+                <div class="audio-item">
+                    <audio controls src="audio/coil_1m_ColdplayClocks_70.5_914.5__denoised_music.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </article>
+    
+        <article class="result-block">
+            <h3 style="font-family: Outfit">Music Sample 2</h3>
+            <p style="text-align: center;">
+                The soundtrack for a famous British film series...
+            </p>
+            <div class="audio-clips">
+                <div class="audio-item">
+                    <audio controls src="audio/coil_1m_AdeleSkyfall_96_1106__denoised_music.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </article>
+    
+        <article class="result-block">
+            <h3 style="font-family: Outfit">Music Sample 3</h3>
+            <p style="text-align: center;">
+                As strongly requested by my supervisor...
+            </p>
+            <div class="audio-clips">
+                <div class="audio-item">
+                    <audio controls src="audio/coil_1m_ACDCHellsBells_121_985__denoised_music.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </article>
+    
+    </main>
+
+    <br>
+
+    <main class="results-container">
+        <article class="result-block">
+            <h3 style="font-family: Outfit">Speech Example 1</h3>
+            <img src="images/have_you_been.png" alt="Spectrogram of Bird Call Alpha">
+            <p>
+                Short phrases like this one are used to test the system's ability to recognise and transcribe speech in various throughout the tests carried out. <br> As illustrated on the poster, this phrase was transcribed with 100% accuracy: <blockquote>"Have you been up to the house yet?"</blockquote>
+            </p>
+            <div class="audio-clips">
+                <h4>Audio Samples:</h4>
+                <div class="audio-item">
+                    <p>Original Audio</p>
+                    <audio controls src="audio/coil_1m_T008_CDY_00104__original.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <p>Raw Audio from Fibre</p>
+                    <audio controls src="audio/coil_1m_T008_CDY_00104__das.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <p>Cleaned Audio from Fibre</p>
+                    <audio controls src="audio/coil_1m_T008_CDY_00104__denoised.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </article>
+
+        <article class="result-block">
+            <h3 style="font-family: Outfit">Speech Example 2</h3>
+            <img src="images/slight_rainstorms.png" alt="Correlation Graph">
+            <p>
+                This longer phrase was transcribed with 92% accuracy, with falsely recognised words corrected in brackets:
+                <blockquote> "Slight rain storms are likely to be <u>counted</u> [encountered] in a trip around the mountain, but one may easily find shelter <u>for these</u> [beneath] well-<u>tashed</u> [-fetched] trees that shed the rain like a <u>wolf</u> [roof]"</blockquote>
+            </p>
+            <div class="audio-clips">
+                <h4>Audio Samples:</h4>
+                <div class="audio-item">
+                    <p>Original Audio</p>
+                    <audio controls src="audio/coil_1m_3000-15664-0011__original.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <p>Raw Audio from Fibre</p>
+                    <audio controls src="audio/coil_1m_3000-15664-0011__das.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <p>Cleaned Audio from Fibre</p>
+                    <audio controls src="audio/coil_1m_3000-15664-0011__denoised.wav">
+                        Sorry, your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>© 2025 <a href="https://www.linkedin.com/in/jack-l-smith/" target="_blank">Jack L Smith</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
