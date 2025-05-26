@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy with DAS</title>
-    <meta name="description" content="Audio examples and results from research on privacy concerns with distributed acoustic sensing technology.">
+    <meta name="description"
+        content="Audio examples and results from research on privacy concerns with distributed acoustic sensing technology.">
     <meta name="theme-color" content="#009999">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="96x96" href="images/fav-96.png">
@@ -15,19 +16,26 @@
 
 <body>
     <header>
-        <h1 style="font-family: Outfit">Audio Examples | Privacy Concerns with Distributed Acoustic Sensing</h1>
-        <p class="subtitle" style="padding-bottom: 0; margin-bottom: 0;">
-            Below you can listen to audio samples recorded during this research using distributed acoustic sensing technology on a fibre optic cable. <br> There are two speech examples and three music examples of songs you can try to identify.
+        <h1>Audio Examples | Privacy Concerns with Distributed Acoustic Sensing</h1>
+        <p class="subtitle">
+            Below you can listen to audio samples recorded during this research using distributed acoustic sensing
+            technology on a fibre optic cable. <br> There are two speech examples and three music examples of songs you
+            can try to identify.
         </p>
     </header>
 
     <main class="results-container">
-    
+
         <article class="result-block">
-            <h3 style="font-family: Outfit">Music Sample 1</h3>
-            <p style="text-align: center;">
-                One of the most famous groups in the world...
-            </p>
+            <div class="heading">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009999" style="width: 26px; height: 26px;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+                </svg>
+                <p style="margin: 0; font-weight: 400; color: #009999; font-size: 16px;">
+                    One of the most famous groups in the world...
+                </p>
+            </div>
             <div class="audio-clips">
                 <div class="audio-item">
                     <audio controls src="audio/coil_1m_ColdplayClocks_70.5_914.5__denoised_music.wav">
@@ -36,12 +44,18 @@
                 </div>
             </div>
         </article>
-    
+
         <article class="result-block">
-            <h3 style="font-family: Outfit">Music Sample 2</h3>
-            <p style="text-align: center;">
-                The soundtrack for a famous British film series...
-            </p>
+            <div class="heading">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009999"
+                    style="width: 26px; height: 26px;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+                </svg>
+                <p style="margin: 0; font-weight: 400; color: #009999; font-size: 16px;">
+                    The soundtrack for a famous British film series...
+                </p>
+            </div>
             <div class="audio-clips">
                 <div class="audio-item">
                     <audio controls src="audio/coil_1m_AdeleSkyfall_96_1106__denoised_music.wav">
@@ -50,12 +64,18 @@
                 </div>
             </div>
         </article>
-    
+
         <article class="result-block">
-            <h3 style="font-family: Outfit">Music Sample 3</h3>
-            <p style="text-align: center;">
-                As strongly requested by my supervisor...
-            </p>
+            <div class="heading">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009999"
+                    style="width: 26px; height: 26px;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+                </svg>
+                <p style="margin: 0; font-weight: 400; color: #009999; font-size: 16px;">
+                    As strongly requested by my supervisor...
+                </p>
+            </div>
             <div class="audio-clips">
                 <div class="audio-item">
                     <audio controls src="audio/coil_1m_ACDCHellsBells_121_985__denoised_music.wav">
@@ -64,17 +84,29 @@
                 </div>
             </div>
         </article>
-    
+
     </main>
 
-    <br>
+    <!-- Removed <br> here, spacing handled by CSS -->
 
     <main class="results-container">
         <article class="result-block">
-            <h3 style="font-family: Outfit">Speech Example 1</h3>
+            <div class="heading">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009999"
+                    style="width: 26px; height: 26px;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                </svg>
+                <p style="margin: 0; font-weight: 400; color: #009999; font-size: 18px;">
+                    Speech Example 1
+                </p>      
+            </div>
             <img src="images/have_you_been.png" alt="Spectrogram of Bird Call Alpha">
             <p>
-                Short phrases like this one are used to test the system's ability to recognise and transcribe speech in various throughout the tests carried out. <br> As illustrated on the poster, this phrase was transcribed with 100% accuracy: <blockquote>"Have you been up to the house yet?"</blockquote>
+                Short phrases like this one are used to test the system's ability to recognise and transcribe speech in
+                various throughout the tests carried out. <br> As illustrated on the poster, this phrase was transcribed
+                with 100% accuracy:
+            <blockquote>"Have you been up to the house yet?"</blockquote>
             </p>
             <div class="audio-clips">
                 <h4>Audio Samples:</h4>
@@ -100,11 +132,23 @@
         </article>
 
         <article class="result-block">
-            <h3 style="font-family: Outfit">Speech Example 2</h3>
+            <div class="heading">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009999"
+                    style="width: 26px; height: 26px;">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                </svg>
+                <p style="margin: 0; font-weight: 400; color: #009999; font-size: 18px;">
+                    Speech Example 2
+                </p>
+            </div>
             <img src="images/slight_rainstorms.png" alt="Correlation Graph">
-            <p>
-                This longer phrase was transcribed with 92% accuracy, with falsely recognised words corrected in brackets:
-                <blockquote> "Slight rain storms are likely to be <u>counted</u> [encountered] in a trip around the mountain, but one may easily find shelter <u>for these</u> [beneath] well-<u>tashed</u> [-fetched] trees that shed the rain like a <u>wolf</u> [roof]"</blockquote>
+            <p2>
+                This longer phrase was transcribed with 92% accuracy, with falsely recognised words corrected in
+                brackets:
+            <blockquote> "Slight rain storms are likely to be <u>counted</u> [encountered] in a trip around the
+                mountain, but one may easily find shelter <u>for these</u> [beneath] well-<u>tashed</u> [-fetched] trees
+                that shed the rain like a <u>wolf</u> [roof]"</blockquote>
             </p>
             <div class="audio-clips">
                 <h4>Audio Samples:</h4>
@@ -132,7 +176,7 @@
     </main>
 
     <footer>
-        <p>© 2025 <a href="https://www.linkedin.com/in/jack-l-smith/" target="_blank">Jack L Smith</a></p>
+        <p style="background: #EFF6E0; display: inline-block; border-radius: 16px; padding: 8px 24px; font-size: 15px;">© 2025 <a href="https://www.linkedin.com/in/jack-l-smith/" target="_blank">Jack L Smith</a></p>
     </footer>
 
     <script src="script.js"></script>

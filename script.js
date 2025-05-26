@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
     clips.forEach((clip, i) => {
         setTimeout(() => {
             clip.classList.add('fade-in');
-        }, i * 600); // staggered fade-in, 200ms apart
+        }, i * 600 + 500); // staggered fade-in, 200ms apart
     });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.body.classList.add('fade-in-bg');
+    }, 300); // Pause for 1 second before adding the class
 });
